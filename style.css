@@ -5,6 +5,12 @@ html, body {
     font-family: 'Poppins', 'Open-Sans';
     font-size: 10px;
     color: var(--accent1);
+    
+}
+
+body {
+    max-width: 1500px;
+    margin: 0 auto;
 }
 
 .body-content-wrapper {
@@ -46,7 +52,7 @@ button:hover {
 .section-indent {
     width: 80%;
     margin: auto;
-    /* max-width: 1200px; */
+    max-width: 1200px;
     
 }
 
@@ -131,15 +137,23 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     gap: 7rem;
-    margin-top: 40rem;
+    /* margin-top: 40rem; */
 }
+
+
+
+.feature-wrap {
+    margin-top: 40rem;
+} 
+
 
 .feature-bg {
     position: absolute;
     z-index: -1;
-    left: -20rem;
-    overflow: hidden;
-    /* width: 130%; */
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    width: 1800px;
 }
 
 .feature-col {
@@ -148,7 +162,7 @@ button:hover {
 
 .bottom-cta {
     text-align: center;
-    margin-top: 20rem;
+    margin-top: 40rem;
 }
 .footer {
     display: flex;
