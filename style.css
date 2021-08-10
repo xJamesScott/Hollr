@@ -39,6 +39,10 @@ button {
     font-size: 2rem;
 }
 
+button:hover {
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.2);
+}
+
 .section-indent {
     width: 80%;
     margin: auto;
@@ -189,6 +193,18 @@ display: flex;
 .input-row {
     display: flex;
     gap: 4rem;
+}
+
+.input-row form {
+    background: transparent;
+    overflow: hidden;
+    height: fit-content;
+    width: fit-content
+}
+
+.input-row form * {
+    height: fit-content;
+    width: 100px;
 }
 
 .newsletter > * {
@@ -412,6 +428,7 @@ input::placeholder {
         height: 900px;
     }
 
+   
     .main-title{
         font-size: 2.4rem;
         line-height: 150%;
@@ -432,6 +449,10 @@ input::placeholder {
         margin: 0 auto;
         margin-top: 4rem;
     
+    }
+
+    .main.section-indent {
+        margin-top: 10rem !important;
     }
 
     .margin-img {
